@@ -22,5 +22,5 @@ func isAnagram(firstString: String, secondString: String) -> Bool {
     return isMatch
 }
 
-isAnagram(firstString: "hello", secondString: "olleh")
-isAnagram(firstString: "world", secondString: "peace")
+isAnagram(firstString: "hello", secondString: "olleh") // true
+isAnagram(firstString: "world", secondString: "peace") // false
